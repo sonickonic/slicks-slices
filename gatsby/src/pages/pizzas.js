@@ -1,10 +1,16 @@
+import { graphql } from 'gatsby';
 import React from 'react';
 
-const PizzasPage = () => (
-  <>
-    <p>pizzas page</p>
-  </>
-);
+import PizzaList from '../components/PizzaList';
+
+const PizzasPage = ({ data }) => {
+  const pizzas = data.pizzas.nodes;
+  return (
+    <>
+      <PizzaList pizzas={pizzas} />
+    </>
+  );
+};
 
 export default PizzasPage;
 
