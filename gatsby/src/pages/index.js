@@ -3,6 +3,7 @@ import { HomePageGrid } from '../styles/Grids';
 import useLatestData from '../utils/useLatestData';
 import LoadingGrid from '../components/LoadingGrid';
 import ItemGrid from '../components/ItemGrid';
+import SEO from '../components/SEO';
 
 const CurrentlySlicing = ({ slicemaster }) => (
   <div>
@@ -31,6 +32,7 @@ const HomePage = () => {
   const { slicemaster, hotSlices } = useLatestData();
   return (
     <>
+      <SEO title="Hot Now!" />
       <div className="center">
         <h2>The Best Pizza Downtown!</h2>
         <p>Open 11am to 11pm Every Single Day</p>

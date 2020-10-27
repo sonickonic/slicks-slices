@@ -4,9 +4,9 @@ dotenv.config({ path: '.env' });
 
 export default {
   siteMetadata: {
-    title: `Slicks Slices`,
+    title: 'Slicks Slices',
     siteUrl: 'https://gatsby.pizza',
-    description: `the best pizza place in Hamilton!`,
+    description: 'The best pizza place in Hamilton!',
     twitter: '@slicksSlices',
   },
   plugins: [

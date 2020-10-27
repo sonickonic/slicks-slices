@@ -22,7 +22,7 @@ const SEO = ({ children, location, description, title, image }) => {
       <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       <link rel="alternate icon" href="/favicon.ico" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta charSet="uft-8" />
+      <meta charSet="utf-8" />
       <meta name="description" content={site.siteMetadata.description} />
       {location && <meta property="og:url" content={location.href} />}
       <meta property="og:image" content={image || '/logo.svg'} />
