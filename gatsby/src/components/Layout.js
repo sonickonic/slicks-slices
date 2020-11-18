@@ -6,6 +6,7 @@ import Footer from './Footer';
 import 'normalize.css';
 import GlobalStyles from '../styles/GlobalStyles';
 import Typography from '../styles/Typography';
+import '../styles/fonts.css';
 import stripes from '../assets/images/stripes.svg';
 
 const SiteBorderStyles = styled.div`
